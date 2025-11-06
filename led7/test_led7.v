@@ -11,14 +11,9 @@ module test_led7;
     //local variables for loop
     integer i,j;
 
-    //Module initialization
-    led7 l_m_led7(
-        .o_w_7seg(l_w_7seg),
-        .o_w_an(l_w_an),
-        .i_w_in(l_r_in),
-        .i_w_an(l_r_an)
-        );
-    
+    // --------------
+    //1. instantiati modulul si numiti-l "l_m_led7" (model din laboratoarele anterioare)
+    // --------------
     //Simulation tests
     initial begin
         //wave files
@@ -34,13 +29,12 @@ module test_led7;
 
         l_r_in = 0;
         #10;
-        for(i=0;i<10;i=i+1)
-        begin
-            l_r_in = i;
-            #10;
-        end
+        
+        // --------------
+        //2. implementati un "for" care atribuie intrarii fiecare cifra de la 0 la 9, cu un delay de 10ns intre ele (timescale-ul este deja setat pe ns)
+        // --------------
+        
         //finish the simulation
         $finish;
     end
 endmodule
-
