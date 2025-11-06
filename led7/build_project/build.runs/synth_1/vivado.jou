@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Nov  5 22:53:30 2025
+# Process ID: 8189
+# Current directory: /home/cosmin/VerilogProjects/computer-architecture/chapters/verilog/behavioral/drills/tasks/led7/build_project/build.runs/synth_1
+# Command line: vivado -log led7.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source led7.tcl
+# Log file: /home/cosmin/VerilogProjects/computer-architecture/chapters/verilog/behavioral/drills/tasks/led7/build_project/build.runs/synth_1/led7.vds
+# Journal file: /home/cosmin/VerilogProjects/computer-architecture/chapters/verilog/behavioral/drills/tasks/led7/build_project/build.runs/synth_1/vivado.jou
+# Running On: localhost.localdomain, OS: Linux, CPU Frequency: 400.000 MHz, CPU Physical cores: 4, Host memory: 16268 MB
+#-----------------------------------------------------------
+source led7.tcl -notrace

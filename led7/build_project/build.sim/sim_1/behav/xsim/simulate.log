@@ -1,0 +1,12 @@
+Time resolution is 1 ps
+Time = 0, l_w_7seg=64, l_r_in=0, 
+Time = 20000, l_w_7seg=121, l_r_in=1, 
+Time = 30000, l_w_7seg=36, l_r_in=2, 
+Time = 40000, l_w_7seg=48, l_r_in=3, 
+Time = 50000, l_w_7seg=25, l_r_in=4, 
+Time = 60000, l_w_7seg=18, l_r_in=5, 
+Time = 70000, l_w_7seg=2, l_r_in=6, 
+Time = 80000, l_w_7seg=120, l_r_in=7, 
+Time = 90000, l_w_7seg=0, l_r_in=8, 
+Time = 100000, l_w_7seg=24, l_r_in=9, 
+$finish called at time : 110 ns : File "/home/cosmin/VerilogProjects/computer-architecture/chapters/verilog/behavioral/drills/tasks/led7/build_project/build.srcs/sim_1/imports/led7/test_led7.v" Line 43

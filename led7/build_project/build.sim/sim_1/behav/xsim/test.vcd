@@ -1,0 +1,96 @@
+$date
+   Wed Nov  5 23:14:41 2025
+$end
+$version
+  2022.1
+$end
+$timescale
+  1ps
+$end
+$scope module test_led7 $end
+$var reg 4 ! l_r_in [3:0] $end
+$var reg 8 " l_r_an [7:0] $end
+$var wire 7 # l_w_7seg [6:0] $end
+$var wire 8 $ l_w_an [7:0] $end
+$var integer 32 % i [31:0] $end
+$var integer 32 & j [31:0] $end
+$scope module l_m_led7 $end
+$var wire 7 # o_w_7seg [6:0] $end
+$var wire 8 $ o_w_an [7:0] $end
+$var wire 4 ' i_w_in [3:0] $end
+$var wire 8 ( i_w_an [7:0] $end
+$var reg 7 ) l_r_7seg [6:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+bx "
+b1000000 #
+bx $
+bx %
+bx &
+b0 '
+bx (
+b1000000 )
+$end
+#10000
+b0 !
+b0 %
+#20000
+b1 !
+b1111001 #
+b1 %
+b1 '
+b1111001 )
+#30000
+b10 !
+b100100 #
+b10 %
+b10 '
+b100100 )
+#40000
+b11 !
+b110000 #
+b11 %
+b11 '
+b110000 )
+#50000
+b100 !
+b11001 #
+b100 %
+b100 '
+b11001 )
+#60000
+b101 !
+b10010 #
+b101 %
+b101 '
+b10010 )
+#70000
+b110 !
+b10 #
+b110 %
+b110 '
+b10 )
+#80000
+b111 !
+b1111000 #
+b111 %
+b111 '
+b1111000 )
+#90000
+b1000 !
+b0 #
+b1000 %
+b1000 '
+b0 )
+#100000
+b1001 !
+b11000 #
+b1001 %
+b1001 '
+b11000 )
+#110000
+b1010 %
